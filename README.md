@@ -13,7 +13,7 @@ getArticles: () => Promise<Array<HackerNewsArticleShape>>
 ### Usage
 
 ```js
-import getArticles from 'hackernews-top-ten';
+import getArticles from 'hacker-news-top-ten';
 
 
 getArticles().then(res =>
