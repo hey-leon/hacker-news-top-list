@@ -7,7 +7,7 @@ hackernews.
 ### API
 
 ```js
-getArticle: () => Promise<Array<HackerNewsArticleShape>>
+getArticles: () => Promise<Array<HackerNewsArticleShape>>
 ```
 
 ### Usage
@@ -16,6 +16,8 @@ getArticle: () => Promise<Array<HackerNewsArticleShape>>
 import getArticles from 'hackernews-top-ten';
 
 
-getArticles().then(res => console.log(res))
+getArticles().then(res =>
+  console.log(res)
+)
 
 ```
