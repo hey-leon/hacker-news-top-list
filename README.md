@@ -1,19 +1,21 @@
-# Hackernews Top Ten
+# Hackernews Top List
 
 This library just includes one default export. Which when called
-will return a promise resolving to the top ten articles on
-hackernews.
+will return a promise resolving to a list of articles from hackernews.
 
 ### API
 
 ```js
-getArticles: () => Promise<Array<HackerNewsArticleShape>>
+getArticles: (count = 30) =>
+  Promise<
+    Array<HackerNewsArticleShape>
+  >
 ```
 
 ### Usage
 
 ```js
-import getArticles from 'hacker-news-top-ten';
+import getArticles from 'hacker-news-top-list';
 
 
 getArticles().then(res =>
