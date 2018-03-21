@@ -1,6 +1,6 @@
 {
   "name": "hacker-news-top-list",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "index.js",
   "repository": "git@github.com:leonp1991/hackernews-top-ten.git",
   "author": "Leon Pearce <leonp1991@gmail.com>",
